@@ -1,0 +1,20 @@
+
+#<IfModule mod_rewrite.c>
+# BEGIN Force http to https
+#RewriteEngine On
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^(.*) https://%{HTTP_HOST}/$1 [R=301,L]
+# END Force http to https
+#</IfModule>
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+#RewriteBase /pi
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule . /pi/index.php [L]
+</IfModule>
+
+# END WordPress

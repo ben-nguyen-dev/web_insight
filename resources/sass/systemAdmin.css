@@ -1,0 +1,191 @@
+.verify-company {
+  text-align: center;
+}
+
+.tabs li:before,
+.tabs li:after,
+.tabs li a:before,
+.tabs li a:after {
+  bottom: 0;
+  position: absolute;
+}
+
+.company-departments .tabs {
+  margin-top: 20px;
+}
+
+h3.title {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.user-list h3.title {
+  margin: 15px 0;
+  display: inline;
+}
+
+.tab-content .user-list,
+.user-list .select-action,
+.user-list .btn-outline-primary {
+  margin-top: 20px;
+}
+
+.user-list p,
+.user-list .table {
+  margin: 15px 0;
+}
+
+.select-action .select-department {
+  min-height: 34px;
+  padding: 5px;
+}
+
+.select-action .do-move-users {
+  min-height: 30px;
+  margin: -3px 0 0 5px;
+}
+
+.tab-content .form-create-department {
+  max-width: 960px;
+  margin: 20px auto;
+}
+
+.btn-outline-primary {
+  border-color: #3490dc;
+}
+
+.sidebar {
+  width: 210px;
+  height: 100vh;
+  background-color: #000;
+  transition: all 0.5s ease-in-out;
+  margin-bottom: -24px;
+}
+
+.sidebar .list-sidebar {
+  padding-left: 0;
+}
+
+#app .py-4 {
+  padding-top: 0 !important;
+}
+
+.btn-manage {
+  font-size: 18px;
+  text-align: left;
+}
+
+.btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.list-sidebar .btn-manage {
+  width: 100%;
+  padding-left: 20px;
+  height: 60px;
+}
+
+.list-sidebar .btn-manage:first-child {
+  margin-top: 55px;
+}
+
+.row .right-content {
+  margin-top: 30px;
+}
+
+.right-content .user-table {
+  margin-top: 20px;
+}
+
+.row {
+  font-family: Inter;
+  margin-right: 0;
+}
+
+.user-table tbody tr th:first-child {
+  text-align: center;
+}
+
+.company-departments .title {
+  margin: 20px 0;
+}
+
+body {
+  padding-right: 0 !important;
+}
+
+.address-form .input-group {
+  display: flex;
+}
+
+.navbar-brand {
+  height: fit-content;
+}
+
+.navbar-brand h3 {
+  margin: 0 0 0.5rem 0;
+}
+
+.user-list .select-action {
+  float: right;
+  margin-bottom: 20px;
+}
+
+.modal #isActive {
+  margin: 10px;
+}
+
+.add-new .btn {
+  float: right;
+  margin: 20px 0 20px auto;
+}
+
+.text-center .fa-refresh {
+  margin-right: 15px;
+}
+
+.text-center .btn-refresh {
+  float: right;
+  font-size: 18px;
+}
+
+.company-departments .alert {
+  margin-right: 15px;
+}
+
+.create-company .title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.create-company form,
+.update-profile-page form {
+  width: 80%;
+  max-width: 960px;
+}
+
+.create-company .company-info {
+  margin: 20px 0;
+}
+
+.profile-status {
+  max-width: 150px;
+}
+
+.update-profile-page .title {
+  margin: 40px;
+  text-align: center;
+}
+
+.create-company-consultant {
+  text-align: right;
+}
+
+.user-list td a {
+  margin-bottom: 5px;
+}
+
+/*# sourceMappingURL=systemAdmin.css.map */

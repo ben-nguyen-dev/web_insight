@@ -1,0 +1,252 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: "Inter", sans-serif !important;
+}
+.header {
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+.introduction {
+    background-image: url('https://publicinsight.se/bi/wp-content/uploads/2020/10/Webp.net-resizeimage-1-2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.introduction-title {
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.introduction-des {
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.46;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.btn{
+    border: none;
+    padding: .375rem .75rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-post-type{
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.btn-post-type:hover{
+    color: black;
+    text-decoration: none;
+}
+.expert {
+    background-color: #ff8600;
+}
+.analysis {
+    background-color: #4dea9e;
+}
+.sponsored {
+    background-color: #0070ff;
+}
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.line {
+    border: solid 1px #b9b9b9;
+}
+.post-item {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.post-title {
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    text-decoration: none;
+}
+.post-title:hover{
+    text-decoration: underline;
+}
+.post-date {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #b9b9b9;
+}
+.post-excerpt {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+.heading-inner{
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.table {
+    border: 1px solid Transparent !important;
+}
+th {
+    line-height: 1.25;
+    border: 0.1rem solid #dcd7ca;
+    font-size: 12px;
+    color: #000000;
+}
+td {
+    vertical-align: top;
+    border: 0.1rem solid #dcd7ca;
+    font-size: 24px;
+}
+td a {
+    text-decoration: none;
+    color: #212529;
+}
+td a:hover {
+    text-decoration: underline;
+}
+.border-left-0{
+    border-left: 0 !important;
+}
+.border-right-0{
+    border-right: 0 !important;
+}
+.icons {
+    display: inline-block;
+    background-image: url('../assets/icons.png');
+    background-repeat: no-repeat;
+}
+.depth {
+    background-position: -66px -138px;
+    width: 22px;
+    height: 22px;
+}
+
+.label-analysis {
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.registration-border {
+    background-image: url(../assets/registration.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+.registration-introduction {
+    font-size: 28px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.61;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0070ff;
+}
+.registration-title {
+    font-weight: bold;
+    color: #000000;
+}
+.registration-email{
+    background-color: #ffffff;
+}
+.form-control {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #0070ff;
+}
+
+h2.article-title {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.38;
+    color : #000000;
+}
+h2.footer-title {
+    color : #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 2.5;
+}
+a.footer-link,
+p.address-ft {
+    color : #999999;
+    font-size: 16px;
+    line-height: 1.88;
+}
+a.footer-link {
+    text-decoration: none;
+}
+a.footer-link:hover {
+    text-decoration: underline;
+}
+.row{
+    display: flex;
+}
+.col-md-3{
+    flex: 0 0 25%;
+    max-width: 25%;
+}

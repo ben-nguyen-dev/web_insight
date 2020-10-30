@@ -1,0 +1,160 @@
+.block-center {
+  background: #000000;
+  padding: 40px 15px 15px;
+}
+
+.login-block {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+
+.login-block .login-title h4 {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.33;
+  color: #fff;
+}
+
+.login-block .login-title {
+  margin-bottom: 30px;
+}
+
+.login-block .login-title p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.login-block .login-form label {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.login-block .login-form input.form-log {
+  border: 1.5px solid #fff;
+  border-radius: 0px;
+  background: #000;
+  color: #fff;
+  box-shadow: none;
+}
+
+.login-block .login-form input.form-log::placeholder {
+  color: #b9b9b9;
+}
+
+.login-block .cart-button {
+  text-align: center;
+}
+
+.btn-white {
+  padding: 5px 35px;
+  text-transform: uppercase;
+  color: #000;
+  line-height: 2;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  background: #fff;
+  display: block;
+  font-weight: bold;
+  border-radius: 0px;
+  margin: 35px auto 25px;
+  border: none;
+  border-radius: 6px;
+}
+
+.login-block .cart-button .btn-forget {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  margin-top: 30px;
+  display: block;
+  text-decoration: underline;
+}
+
+.bottom-login {
+  margin-top: 50px;
+  padding: 40px 0px 60px;
+  display: block;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.bottom-login .bottom-header h5 {
+  font-family: "Inter", sans-serif;
+  line-height: 1.33;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 25px;
+}
+
+.bottom-login .bottom-header .btn-regisrera-dig {
+  background: #4dea9e;
+  color: #000;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  padding: 8px 50px;
+  border: none;
+  font-weight: bold;
+  outline: none;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1), 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+.login-title-mb .mb-top {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 1.44;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-left: 5px;
+}
+
+.login-form .form-group {
+  margin-bottom: 20px;
+}
+
+.login-title-mb .mb-top.mb-reset-ps {
+  margin-left: 5px;
+}
+
+.login-title-mb {
+  margin-bottom: 20px;
+}
+
+.login-title-mb img {
+  margin-top: -15px;
+  width: 30px;
+  height: 30px;
+}
+
+@media only screen and (max-width: 576px) {
+  .navbar-brand h5 {
+    margin: 0px 0px 0px 15px;
+  }
+
+  .login-block {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .login-title-mb {
+    margin-bottom: 25px;
+  }
+}
+.reset-password-message {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=login.css.map */

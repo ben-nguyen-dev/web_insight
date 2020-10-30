@@ -1,0 +1,127 @@
+.container {
+  max-width: 960px;
+  height: auto;
+  margin: 0 auto;
+}
+.container .table {
+  margin-top: 50px;
+}
+.container .third-latest-articles {
+  margin: 60px 0;
+}
+
+.feature-posts {
+  overflow: auto;
+}
+.feature-posts .main-feature-posts {
+  float: left;
+  max-width: 600px;
+}
+.feature-posts .sub-feature-posts {
+  float: right;
+  max-width: 400px;
+}
+.feature-posts .sub-feature-posts .post-item:last-child {
+  margin-top: 10px;
+}
+
+.latest-articles .header-title {
+  margin-bottom: 60px;
+}
+.latest-articles .header-title .title {
+  margin-bottom: 1rem;
+}
+.latest-articles .article-item {
+  margin-top: 50px;
+}
+.latest-articles .article-item:first-child {
+  margin-top: 60px;
+}
+.latest-articles .line {
+  width: 70px;
+  height: 0;
+  margin-left: 47%;
+}
+.latest-articles .btn-load-more {
+  margin-top: 60px;
+}
+.latest-articles .btn-load-more img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tag-cloud .line {
+  width: 70px;
+  height: 0;
+  margin-left: 47%;
+}
+
+.depth-analysis-articles .image {
+  width: 50%;
+  float: left;
+}
+.depth-analysis-articles .image img {
+  height: 569px;
+  width: 100%;
+}
+.depth-analysis-articles .depth-analysis-post {
+  padding: 20px 10% 30px 20px;
+  width: 50%;
+  float: right;
+}
+
+.newsflow-page .introduction {
+  padding: 138px 0 138px 190px;
+  max-height: 550px;
+}
+.newsflow-page .feature-posts {
+  margin-top: 30px;
+}
+.newsflow-page .container {
+  max-width: 960px;
+  padding: 0;
+}
+.newsflow-page .depth-analysis-articles {
+  margin-top: 90px;
+  overflow: auto;
+}
+.newsflow-page .depth-analysis-articles img {
+  height: 577px;
+}
+.newsflow-page .registration-form {
+  margin-top: 50px;
+  padding: 20px;
+}
+.newsflow-page .tag-cloud {
+  margin-top: 50px;
+}
+
+.footer {
+  background: #222222;
+  padding: 70px 0;
+}
+
+@media only screen and (max-width: 568px) {
+  .depth-analysis-articles .image {
+    width: 100%;
+  }
+  .depth-analysis-articles .image img {
+    width: 100%;
+  }
+  .depth-analysis-articles .depth-analysis-post {
+    padding: 20px 10% 30px 20px;
+    width: 100%;
+  }
+  .depth-analysis-articles .depth-analysis-post .article-item .article-image {
+    width: auto;
+    max-width: 568px;
+  }
+  .depth-analysis-articles .depth-analysis-post .article-item .content {
+    float: left;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/*# sourceMappingURL=module.css.map */

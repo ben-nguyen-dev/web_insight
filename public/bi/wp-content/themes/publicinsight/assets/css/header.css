@@ -1,0 +1,269 @@
+.heading-inner h2 {
+  padding-top: 12px;
+}
+.heading-inner a {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  margin-top: 10px;
+}
+.heading-inner a:hover {
+  text-decoration: underline;
+}
+
+.post-item {
+  position: relative;
+}
+.post-item .heading-inner {
+  position: absolute;
+  padding-left: 20px;
+  bottom: 10px;
+}
+
+.article-image img {
+  display: inline-block;
+  height: 250px;
+}
+
+.post-type-date .post-date {
+  margin: 19px 0 0 20px;
+}
+
+.content .post-type-date {
+  margin-top: 10px;
+}
+.content .post-excerpt {
+  margin-top: 25px;
+}
+
+.article-item {
+  overflow: auto;
+}
+.article-item .article-image {
+  float: left;
+  display: flex;
+}
+.article-item .content {
+  float: right;
+  margin-left: 35px;
+  width: calc(100% - 450px);
+}
+.article-item .btn-post-type {
+  height: 24px;
+  padding: 0.1rem 0.75rem;
+}
+
+.article-content .post-title {
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.table {
+  border: 1px solid Transparent !important;
+}
+.table th {
+  color: #0070ff;
+  padding: 20px 30px;
+  min-width: 120px;
+}
+.table td {
+  padding: 10px 30px;
+}
+.table td a {
+  color: #212529;
+}
+
+.post-type-depth .type-depth {
+  display: inline-block;
+  margin-left: 27px;
+}
+.post-type-depth .type-depth .pin {
+  float: left;
+  margin-top: 3px;
+}
+.post-type-depth .type-depth .label-analysis {
+  margin-left: 10px;
+}
+
+.main-feature-posts .post-item {
+  width: 550px;
+  max-height: 500px;
+  height: 470px;
+}
+.main-feature-posts .heading-inner {
+  font-size: 24px;
+}
+
+.sub-feature-posts .post-item {
+  width: 400px;
+  height: 230px;
+}
+.sub-feature-posts .heading-inner {
+  font-size: 18px;
+}
+
+.depth-analysis .article-content {
+  float: right;
+  margin: -10px 0 0 15px;
+  width: calc(100% - 180px);
+}
+.depth-analysis .article-content .post-date {
+  display: block;
+}
+.depth-analysis .article-content .post-type-depth {
+  margin-top: 10px;
+}
+.depth-analysis .article-item {
+  margin-top: 20px;
+}
+.depth-analysis .article-item .article-image img {
+  max-height: 100px;
+}
+
+.depth-analysis-post {
+  overflow: auto;
+  background-color: #0070ff;
+}
+.depth-analysis-post .post-title {
+  color: white;
+}
+.depth-analysis-post .post-date {
+  color: #e5e5e5;
+}
+.depth-analysis-post .post-excerpt {
+  color: white;
+  margin-top: 15px;
+}
+.depth-analysis-post .post-type-date {
+  margin-top: 10px;
+}
+
+.news-machine-list .news-machine-load-more {
+  margin-top: 50px;
+}
+.news-machine-list .news-machine-load-more img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.head-article .title {
+  font-size: 24px;
+  line-height: 1.42;
+  text-transform: unset;
+  text-align: left;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.head-article .title:hover {
+  text-decoration: underline;
+}
+.head-article .post-item {
+  margin-bottom: 20px;
+}
+
+.third-latest-articles .head-article {
+  width: 48%;
+  float: left;
+}
+.third-latest-articles .head-article .post-item {
+  height: 250px;
+  max-height: 300px;
+}
+.third-latest-articles .sub-articles {
+  width: 50%;
+  float: right;
+  margin-left: 2%;
+}
+.third-latest-articles .sub-articles .article-item:not(:first-child) {
+  margin-top: 20px;
+}
+.third-latest-articles .sub-articles .article-image img {
+  height: 80px;
+  max-height: 100px;
+}
+.third-latest-articles .sub-articles .article-content {
+  float: left;
+  max-width: 300px;
+  margin-left: 20px;
+}
+.third-latest-articles .sub-articles .article-content .post-type-date {
+  margin-top: 5px;
+}
+.third-latest-articles .sub-articles .article-content .post-type-date .post-date {
+  font-size: 12px;
+}
+
+.footer .ft-title h2.footer-title {
+  margin: 25px 0px 40px;
+}
+.footer .ft-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+.footer .ft-content ul li {
+  list-style: none;
+  margin: 0;
+}
+
+.registration-form {
+  background-color: #f6f6f6;
+}
+.registration-form .registration-border {
+  margin: 50px auto;
+  width: 960px;
+  height: 230px;
+}
+.registration-form .registration-email {
+  background-color: #f6f6f6;
+}
+
+.registration-border .registration-introduction {
+  padding: 40px 70px 20px 70px;
+}
+.registration-border .registration-email {
+  padding: 10px;
+  margin: 10px 0 0 100px;
+  width: 45%;
+}
+.registration-border .registration-email .form-control {
+  height: 50px;
+}
+
+.introduction .introduction-title {
+  width: 38%;
+  max-width: 415px;
+}
+.introduction .introduction-des {
+  width: 45%;
+  max-width: 520px;
+  margin: 30px 0 0;
+}
+
+.article-fact h2.article-title {
+  margin: 25px 0px;
+}
+.article-fact .article-fact {
+  margin-top: 35px;
+}
+
+@media only screen and (max-width: 568px) {
+  .article-item .article-image {
+    width: auto;
+    max-width: 568px;
+  }
+  .article-item .content {
+    float: left;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .third-latest-articles .head-article {
+    width: 100%;
+  }
+  .third-latest-articles .sub-articles {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=components.css.map */

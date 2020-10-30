@@ -1,0 +1,3 @@
+<a class="<?php echo (isset($post_type) ? $post_type : '') . ' ' . (isset($type) ? $type : ''); ?>" 
+    <?php if(isset($get_post_url) && ($get_post_url != '')) echo "target='_blank'"; else echo ''; ?> href="<?php if (isset($get_post_url) && $get_post_url != '') echo $get_post_url; else if(isset($should_direct) && $should_direct) echo get_permalink(); else echo "javascript:void(0)"; ?>">
+    <?php echo the_title(); ?></a>
